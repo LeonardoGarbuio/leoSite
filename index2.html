@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Garbuio - Contato</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index2.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="contact-section">
+            <h2>Entre em Contato</h2>
+            <p>Está interessado em trabalhar comigo ou tem alguma dúvida? Preencha o formulário abaixo ou entre em contato diretamente!</p>
+
+            <!-- Formulário de Contato -->
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..." required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+            <!-- Informações de Contato -->
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> E-mail: leonardogarbuiocavalheiro@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Telefone: (42) 99154-6824</p>
+
+                <!-- Links para Redes Sociais -->
+                <div class="social-links">
+                    <a href="https://github.com/LeonardoGarbuio" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/leonardogarbuio" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/leonardogarbuio" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Leonardo Garbuio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
